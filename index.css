@@ -1,0 +1,50 @@
+.navbar-brand {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.carousel-indicators li,
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: red;	
+}
+
+#carouselExampleControls, .carousel-inner, .carousel-item {
+	height: 80vh;
+}
+
+@media only screen and (max-width: 992px) {
+	#carouselExampleControls, .carousel-inner, .carousel-item {
+		height: 60vh;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#carouselExampleControls, .carousel-inner, .carousel-item {
+		height: 40vh;
+	}
+}
+@media only screen and (max-width: 450px) {
+	#carouselExampleControls, .carousel-inner, .carousel-item {
+		height: 35vh;
+	}
+}
+
+.carousel-item {
+	background-position: top;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#carousel-item-1 {
+	background-image: url('./images/slider1.jpg');
+}
+#carousel-item-2 {
+	background-image: url('./images/slider2.jpg');
+}
+#carousel-item-3 {
+	background-image: url('./images/slider3.jpg');
+}
+
+footer {
+
+}
